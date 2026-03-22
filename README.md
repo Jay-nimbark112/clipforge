@@ -33,6 +33,55 @@ project2/
 
 ---
 
+## 🎯 How to Use ClipForge
+
+Follow these steps to process videos using ClipForge:
+
+1. **Open the App**  
+   Open your browser and navigate to:  
+   `http://localhost:3000` (after starting frontend and backend).
+
+2. **Paste a Video URL**  
+   - Enter a direct video URL in the input box.  
+   - Example: `https://placeholdervideo.dev/1280x720`  
+   - Make sure the URL is correct. If the URL is invalid or inaccessible, an error message will appear.
+
+3. **Select an Operation**  
+   Choose **one** operation from the dropdown menu:
+   - **Thumbnail** – generate a video thumbnail image.  
+   - **Compress Video** – reduce the video file size while maintaining quality.  
+   - **Extract Audio** – extract the audio from the video as MP3.
+
+4. **Process the Video**  
+   - Click the **Process** button.  
+   - Wait a few seconds while the backend processes the video.  
+   - During processing, the button shows **“Processing…”**.
+
+5. **View and Download Result**  
+   - Once processing is complete, the result appears:
+     - **Thumbnail** → image preview  
+     - **Compress Video** → video player  
+     - **Extract Audio** → audio player  
+   - Click **📥 Download** to save the file to your device.
+
+6. **Reset the Form**  
+   - Click the **Reset** button to clear the input and result.  
+   - You can then paste a new URL and repeat the process.
+
+7. **Error Handling**  
+   - If the URL is invalid or cannot be accessed, an error message will be displayed below the input box.  
+   - Make sure to provide a valid, publicly accessible video URL.
+
+---
+
+### ✅ Example Video URLs for Testing
+
+- `https://placeholdervideo.dev/1280x720`  
+- `https://placeholdervideo.dev/1920x1080`
+
+
+
+
 ## 🚀 Setup Instructions
 
 ### 1. Clone the repository
