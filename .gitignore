@@ -1,0 +1,27 @@
+# -------------------
+# Frontend / React
+# -------------------
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.DS_Store
+frontend/.vscode/
+
+# -------------------
+# Backend / Node.js
+# -------------------
+backend/node_modules/
+backend/.env
+backend/.DS_Store
+backend/.vscode/
+backend/dist/
+backend/logs/
+backend/npm-debug.log*
+
+# -------------------
+# OS / Editor
+# -------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
